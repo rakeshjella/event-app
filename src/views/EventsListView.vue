@@ -1,16 +1,16 @@
 <template>
-  <hello-world />
+  <events-list />
 </template>
 
 <script lang="ts">
   import Vue from 'vue'
-  import HelloWorld from '../components/HelloWorld.vue'
+  import EventsList from '../components/EventsList.vue'
 
   export default Vue.extend({
-    name: 'home',
+    name: 'eventslist',
 
     components: {
-      HelloWorld,
+      EventsList,
     },
   })
 </script>
